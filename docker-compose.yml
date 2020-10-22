@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+
+   webapp:
+     image: mystogan1999/midsem
+     ports:
+       - "8000:80"
+     restart: always
+
